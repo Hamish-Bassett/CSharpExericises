@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic1", "Basic1\Basic1.csproj", "{DF05071B-9628-4933-A8E7-1CA8038AEB1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic1", "Basic1\Basic1.csproj", "{DF05071B-9628-4933-A8E7-1CA8038AEB1F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic2", "Basic2\Basic2.csproj", "{B762D285-CCA4-46E1-A8FE-972FD20A0587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic2", "Basic2\Basic2.csproj", "{B762D285-CCA4-46E1-A8FE-972FD20A0587}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic3", "ConsoleApp3\Basic3.csproj", "{990D35FC-A75F-40E1-96E5-885FC88517F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic3", "ConsoleApp3\Basic3.csproj", "{990D35FC-A75F-40E1-96E5-885FC88517F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{3385D992-497E-474F-A5DD-86CCB02492A9}"
 EndProject
@@ -45,5 +45,21 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23F7365A-6CB5-4BB2-BDC2-BB73BF5A3B63}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		$5.Text = "${FileName}"
 	EndGlobalSection
 EndGlobal
